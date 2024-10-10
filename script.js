@@ -1,6 +1,11 @@
 function firstChar(text) {
   // your code here
-	return text.trim().charAt(0);
+	let ans = text.trim().charAt(0);
+	if(ans.length ==0){
+		return "";
+	}else{
+		return ans;
+	}
 }
 
 // Do not change the code below
